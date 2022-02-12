@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/manage-landingpage/static/css/main.e3a97a7b.css",
+    "main.js": "/manage-landingpage/static/js/main.369fcd2b.js",
+    "static/js/787.7eac6ba5.chunk.js": "/manage-landingpage/static/js/787.7eac6ba5.chunk.js",
+    "static/media/avatar-ali.png": "/manage-landingpage/static/media/avatar-ali.88f9155cb730934f4d7c.png",
+    "static/media/avatar-shanai.png": "/manage-landingpage/static/media/avatar-shanai.4bbe2f95e8975736fbd8.png",
+    "static/media/illustration-intro.svg": "/manage-landingpage/static/media/illustration-intro.cb9a8a9551ca99f99a125230d38a2c36.svg",
+    "static/media/avatar-anisha.png": "/manage-landingpage/static/media/avatar-anisha.484e15bc92ce6a0106ab.png",
+    "static/media/avatar-richard.png": "/manage-landingpage/static/media/avatar-richard.ace8e0892f67a50c1e9e.png",
+    "static/media/logo.svg": "/manage-landingpage/static/media/logo.66a576108be35c08eb2ca3e40c17d151.svg",
+    "index.html": "/manage-landingpage/index.html",
+    "static/media/bg-tablet-pattern.svg": "/manage-landingpage/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e9783736e996a.svg",
+    "main.e3a97a7b.css.map": "/manage-landingpage/static/css/main.e3a97a7b.css.map",
+    "main.369fcd2b.js.map": "/manage-landingpage/static/js/main.369fcd2b.js.map",
+    "787.7eac6ba5.chunk.js.map": "/manage-landingpage/static/js/787.7eac6ba5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3a97a7b.css",
+    "static/js/main.369fcd2b.js"
+  ]
+}
