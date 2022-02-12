@@ -50,6 +50,7 @@ header {
     height:100vh;
     opacity:0;
     width:100%;
+    display:none;
     background: rgb(45,45,45);
     background: linear-gradient(0deg, rgba(45,45,45,1) 0%, rgba(52,52,52,0.5844931722689075) 40%, rgba(94,94,94,0) 100%);
     z-index:1;
@@ -73,9 +74,7 @@ header {
     justify-content:center;
 }
 
-.hamburgerMenu, .hamburgerMenu2 {
-    display:none;
-}
+
 
 .opacity {
     opacity:1;
