@@ -27,7 +27,7 @@ Users should be able to:
 
 ### 📌Links
 
-- Live Site URL: [Live site url](https://mariapenaa.github.io/space-landingpage/)
+- Live Site URL: [Live site url](https://mariapenaa.github.io/manage-landingpage/)
 
 ### 🔨Built with
 
