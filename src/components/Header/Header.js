@@ -36,7 +36,8 @@ const Header = () => {
           <li>Careers</li>
           <li>Community</li>
       </ul>
-      <Button text='get started' color='orange'/>
+      <div className="headerButton"><Button text='get started' color='orange' /></div>
+      
       {open ?
         <CloseIcon className="menuIcon" onClick={()=>setOpen(false)}/>
         :  <MenuIcon className="menuIcon" onClick={()=>setOpen(true)}/>

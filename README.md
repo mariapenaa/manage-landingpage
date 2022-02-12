@@ -16,9 +16,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - See all testimonials in a horizontal slider
-- Receive an error message when the newsletter sign up `form` is submitted if:
-  - The `input` field is empty
-  - The email address is not formatted correctly
+
 ### 📷Screenshot
 
 - Desktop: 
@@ -38,6 +36,7 @@ Users should be able to:
 - SASS
 - Flexbox
 - Mobile-first workflow
+- For the carousel I followed a [tutorial by Rakumairu](https:/dev.to/rakumairuhow-to-show-multiple-item-in-simple-react-carousel-32dd)
 - [React](https://reactjs.org/) - JS library
 
 

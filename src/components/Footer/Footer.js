@@ -1,4 +1,5 @@
 import Button from 'shared/Button/Button'
+import {useState} from 'react'
 import './Footer.scss';
 import logo from 'images/logo.svg'
 import InstagramIcon from '@material-ui/icons/Instagram';
@@ -8,11 +9,15 @@ import PinterestIcon from '@material-ui/icons/Pinterest';
 import FacebookIcon from '@material-ui/icons/Facebook';
 
 const Footer = () => {
+  const [email, setEmail] = useState('')
+  const clear = () => {
+    setEmail('')
+  }
   return (
     <footer>
       <div className="inputContainer">
-        <input placeholder='Updates in your inbox...' className="input"/>
-        <Button text='go' color='orange' />
+        <input placeholder='Updates in your inbox...' className="input" value={email} onChange={(e)=>setEmail(e.target.value)}/>
+        <Button text='go' disabled={email === '' ? true : false} color='orange' send={clear}/>
       </div>
       <div className="footerList">
         <ul>
