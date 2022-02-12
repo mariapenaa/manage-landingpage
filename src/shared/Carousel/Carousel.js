@@ -28,9 +28,11 @@ const Carousel = (props) => {
     const handleTouchStart = (e) => {
         const touchDown = e.touches[0].clientX
         setTouchPosition(touchDown)
+        console.log('touch')
     }
 
     const handleTouchMove = (e) => {
+        console.log('touch')
         const touchDown = touchPosition
         if(touchDown === null) {
             return
