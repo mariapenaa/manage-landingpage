@@ -1,0 +1,292 @@
+@import '_var.scss';
+
+.mainContainer {
+    padding-top:6rem;
+    position:relative;
+    min-height:100vh;
+    width:100%;
+    overflow: hidden;
+}
+
+.pattern {
+    position:absolute;
+    top:-6%;
+    width:100%;
+    right:-20%;
+    z-index:-1;
+}
+
+.pattern2 {
+    position:absolute;
+    top:35%;
+    width:80%;
+    width:100%;
+    right:-60%;
+    z-index:-1;
+}
+
+.section {
+    z-index:5;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding:0 2.2rem;
+    img {
+        width:100%;
+    }
+}
+
+
+.section2 {
+    z-index:5;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding:0 2.2rem;
+    img {
+        width:100%;
+    }
+}
+
+.section3 {
+    z-index:5;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding:0 2.2rem;
+    img {
+        width:100%;
+    }
+}
+
+.innerSection {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.title {
+    font-family:$font;
+    color:$darkBlue;
+    font-size:2.2rem;
+    text-align:center;
+    font-weight:600;
+    line-height: 2.7rem;
+    letter-spacing: 0.01rem;
+}
+
+.dTitle {
+    font-family:$font;
+    color:$darkBlue;
+    font-size:0.9rem;
+    font-weight:600;
+    background-color:$paleRed;
+    padding:0.5rem 0rem;
+    width:115%;
+    border-radius:20px;
+    span {
+        margin-right:1rem;
+        background-color:$brightRed;
+        padding:0.5rem 1.4rem;
+        color:white;
+        border-radius:20px;
+    }
+}
+
+.subtitle3 {
+    font-family:$font;
+    color:$darkBlue;
+    font-size:0.9rem;
+    font-weight:600;
+    text-align:center;
+}
+
+.dSquare {
+    margin-top:2.5rem;
+}
+
+.secondTitle {
+    @extend .title;
+    font-size:1.8rem;
+}
+
+.subtitle {
+    font-family:$font;
+    color:$grayBlue;
+    font-weight:100;
+    font-size:0.9rem;
+    text-align:center;
+}
+
+.subtitleLeft {
+    @extend .subtitle;
+    text-align:left;
+}
+
+.opinionSquare {
+    background-color: #f4f4f4;
+    position:relative;
+    padding-top:4rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-bottom:1rem;
+    img {
+        width:4rem;
+        position:absolute;
+        right:40%;
+        top:-10%;
+
+    }
+}
+
+.orangeSquare {
+    background-color: $brightRed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.2rem 2.2rem;
+    flex-direction:column;
+    position:relative;
+    br {
+        display:none;
+    }
+}
+
+.pattern3 {
+    width:100%;
+    z-index:-1;
+    position:absolute;
+    
+}
+
+
+.whiteTitle {
+    @extend .title;
+    color:white;
+}
+
+.opinionSquare {
+    width:40%;
+    display:flex;
+    justify-content: center;
+}
+
+.carousel-inner {
+    display:flex;
+    justify-content:center;
+    padding-top:2rem;
+    img {
+        right:40%;
+        
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    
+    .carousel-inner {
+        img {
+            right:43%;
+            
+        }
+    }
+
+    .orangeSquare {
+        flex-direction:row;
+        justify-content:space-between;
+        padding: 6rem 7.5rem;
+        br {
+            display:block;
+        }
+        p {
+            margin-bottom:0;
+            text-align:left;
+            font-size:3rem;
+        }
+    }
+
+/*     .section3 {
+        padding:0px;
+    }
+ */
+
+    .section2 {
+        justify-content: space-between;
+        align-items:flex-start;
+        flex-direction:row;
+        padding: 0 10rem;
+    }
+
+    .section {
+        padding: 0 10rem;
+        justify-content: space-between;
+        align-items:flex-start;
+        flex-direction:row-reverse;
+    }
+
+    .innerSection {
+        align-items:flex-start;
+        margin-right: 5rem;
+        margin-right: 2rem;
+        .subtitle {
+            width:65%;
+        }
+        .secondTitle {
+            text-align:left;
+            font-size:3rem;
+            line-height:3.5rem;
+        }
+        .subtitle {
+            text-align:left;
+            margin-bottom:2rem;
+        }
+    }
+
+    .dSquare {
+        margin-top:0;
+        margin-bottom:3rem;
+    }
+
+    .dTitle {
+        background-color: transparent;
+    }
+
+    .mainContainer {
+        padding-top: 12rem;
+    }
+
+    .title {
+        text-align: left;
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .home {
+        height:77vh;
+        align-items:center;
+    }
+
+    .section2 {
+        margin-bottom:3.5rem;
+    }
+
+    .pattern {
+        top: -10%;
+        width: 65%;
+        right: -18%;
+    }
+    
+    .pattern2 {
+        top: 55%;
+        width: 50%;
+        left:-24%;
+    }
+
+
+    .opinionSquare {
+        width:90%;
+    }
+
+}
